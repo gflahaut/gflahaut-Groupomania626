@@ -18,7 +18,7 @@ function Home() {
   console.log(userRole);
 
   React.useEffect(() => {
-    Axios.get(`http://localhost:5000/posts/all`,
+    Axios.get(`https://groupomania626.herokuapp.com/posts/all`,
     {
       headers: {
         Authorization: localStrorage.getItem("authToken"),
@@ -234,7 +234,7 @@ function Home() {
   function getUsers() {
     let search = document.getElementById("hfilter").value;
     if (search.length > 2) {
-      Axios.post(`http://localhost:5000/auth/filter`, { search: search },
+      Axios.post(`https://groupomania626.herokuapp.com/auth/filter`, { search: search },
       {
         headers: {
           Authorization: localStrorage.getItem("authToken"),
@@ -257,7 +257,7 @@ function Home() {
     setUsersList([]);
     document.getElementById("hfilter").value = "";
     let userid = e.target.getAttribute("data-user");
-    Axios.post(`http://localhost:5000/posts/fromUser`, { userid: userid },
+    Axios.post(`https://groupomania626.herokuapp.com/posts/fromUser`, { userid: userid },
     {
       headers: {
         Authorization: localStrorage.getItem("authToken"),
@@ -281,7 +281,7 @@ function Home() {
     let userId = localStrorage.getItem("userid");
     console.log(postId);
     console.log(likes);
-    Axios.post("http://localhost:5000/posts/like", {
+    Axios.post("https://groupomania626.herokuapp.com/posts/like", {
       postId: postId,
       userid: userId,
       likes: likes,
@@ -309,7 +309,7 @@ function Home() {
   }
 
   function deletePost(id) {
-    Axios.delete(`http://localhost:5000/posts/delete/${id}`, {
+    Axios.delete(`https://groupomania626.herokuapp.com/posts/delete/${id}`, {
       headers: {
         Authorization: localStrorage.getItem("authToken"),
       },

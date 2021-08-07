@@ -15,7 +15,7 @@ function Post() {
   let history = useHistory();
 
   function createPost() {
-    Axios.post(`http://localhost:5000/posts/create`,{
+    Axios.post(`https://groupomania626.herokuapp.com/posts/create`,{
       postUserId: localStrorage.getItem("userid"),
       title: title,
       description: description,

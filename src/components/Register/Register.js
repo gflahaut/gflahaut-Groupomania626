@@ -12,7 +12,7 @@ function Register() {
     const [username, setUsername] = useState('');
     let history = useHistory();
         const Register = () => {
-        Axios.post("http://localhost:5000/auth/signup",{
+        Axios.post("https://groupomania626.herokuapp.com/auth/signup",{
             password,
             name,
             firstname,
