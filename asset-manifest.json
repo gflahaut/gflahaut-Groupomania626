@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/starter-project/static/css/main.b66766ca.chunk.css",
+    "main.js": "/starter-project/static/js/main.69e028f6.chunk.js",
+    "main.js.map": "/starter-project/static/js/main.69e028f6.chunk.js.map",
+    "runtime-main.js": "/starter-project/static/js/runtime-main.289f6473.js",
+    "runtime-main.js.map": "/starter-project/static/js/runtime-main.289f6473.js.map",
+    "static/css/2.4be38407.chunk.css": "/starter-project/static/css/2.4be38407.chunk.css",
+    "static/js/2.e274f2e9.chunk.js": "/starter-project/static/js/2.e274f2e9.chunk.js",
+    "static/js/2.e274f2e9.chunk.js.map": "/starter-project/static/js/2.e274f2e9.chunk.js.map",
+    "index.html": "/starter-project/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/starter-project/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.b66766ca.chunk.css.map": "/starter-project/static/css/main.b66766ca.chunk.css.map",
+    "static/js/2.e274f2e9.chunk.js.LICENSE.txt": "/starter-project/static/js/2.e274f2e9.chunk.js.LICENSE.txt",
+    "static/media/Pix_lune.db70b55c.jpg": "/starter-project/static/media/Pix_lune.db70b55c.jpg",
+    "static/media/icon-above-font.73d73abe.svg": "/starter-project/static/media/icon-above-font.73d73abe.svg",
+    "static/media/icon-left-font-monochrome-black.5fa0e785.png": "/starter-project/static/media/icon-left-font-monochrome-black.5fa0e785.png",
+    "static/media/icon.df011b71.svg": "/starter-project/static/media/icon.df011b71.svg",
+    "static/media/plage.c9de9a20.jpg": "/starter-project/static/media/plage.c9de9a20.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.289f6473.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.e274f2e9.chunk.js",
+    "static/css/main.b66766ca.chunk.css",
+    "static/js/main.69e028f6.chunk.js"
+  ]
+}
