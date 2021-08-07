@@ -1,5 +1,6 @@
 {
   "name": "client",
+   "homepage": "https://gflahaut.github.io/Groupomania626/",
   "version": "0.1.0",
   "private": true,
   "proxy": "https://groupomania626.herokuapp.com",
